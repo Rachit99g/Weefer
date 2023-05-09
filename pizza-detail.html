@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  td,th{
+    border: 0.2px solid rgba(0, 0, 0, 0.17);
+    padding: 10px;
+    font-size: 15px;
+
+  }
+  .payment{
+    width: 100%;
+    height:150px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button{
+    width: 200px;
+    height: 60px;
+    border: 0.2px solid rgba(0, 0, 0, 0);
+    background-color: rgb(180, 249, 180);
+    color: white;
+    font-size: 20px;
+  }
+  option{
+    width: auto;
+    height: 80px;
+    border: none;
+  }
+  input[type="text"]{
+    width: 200px;
+    height: 100px;
+    border: none;
+  }
+  input[type="tel"]{
+    width: 200px;
+    height: 100px;
+    border: none;
+  }
+  input[type="number"]{
+    width: 200px;
+    height: 25px;
+    border: none;
+    font-size: 15px;
+  }
+</style>
+<body>
+  <div class="box">
+    <h4>Order Detail Be Continue😊</h4>
+    <table>
+      <tr>
+        <th>Items</th>
+        <th>Amount</th>
+      </tr>
+      <tr>
+        <td>Ordered</td>
+        <td>Pizza</td>
+      </tr>
+      <tr>
+        <td>No.of items</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>List price</td>
+        <td>500</td>
+      </tr>
+      <tr>
+        <td>Selling price</td>
+        <td>344</td>
+      </tr>
+      <tr>
+        <td>Shipping fee</td>
+        <td>40</td>
+      </tr>
+      <tr>
+        <td>Shipping Detail</td>
+      </tr>
+      <tr>
+        <tr>
+          <td>Payment Method</td>
+          <td><section>
+            <select id="cars">
+              <option id="payment" value="volvo">Cash On Dilevery👌</option>
+              <option id="payment" value="saab">Google Pay⭐</option>
+              <option id="payment" value="opel">UPI / Paytm👍</option>
+              <option id="payment" value="audi">Bharat Pay😉</option>
+            </select>
+          </section></td>
+        </tr>
+        <td>Address</td>
+        <td>B 109 migsun green manson</td>
+      </tr>
+      <tr>
+        <td>Gmail</td>
+        <td><input type="text" style="border: none;height: 25px;" placeholder="Enter Your Gmail"></td>
+      </tr>
+      <tr>
+        <td>Mobile Number</td>
+        <td><input type="tel" style="border: none;height: 25px;" placeholder="Enter Your Number"></td>
+      </tr>
+      <tr>
+        <td>State</td>
+        <td>Utter Pradesh</td>
+      </tr>
+      <tr>
+        <td>Pin</td>
+        <td><input type="number" placeholder="Enter pin" style="border: none "></td>
+      </tr>
+      <tr>
+        <td>Add more items +</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>Total Amount</td>
+        <td>400</td>
+      </tr>
+    </table>
+  </div>
+  <div class="payment">
+    <a href="pizza-super.html"><button>Order Now</button></a>
+  </div>
+</body>
+</html>
